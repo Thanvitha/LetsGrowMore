@@ -1,0 +1,64 @@
+nav {
+  height: 20vh;
+  width: 100%;
+  background-color: #ff0040;
+  color: #d9ff00;
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-size: 40px;
+}
+
+.navitems button {
+  width: 10%;
+  height: 27px;
+  border: 80px transparent;
+  border-radius: 40px;
+  background-color: #50fc00;
+  font-family: "Nunito", Times, serif;
+  font-size: 20px;
+  margin: auto 0px;
+}
+
+.fetchbtn:hover {
+  background-color: #0dffff;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  background-color: #480ea7;
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+.name:hover {
+  color: #ffffff;
+}
+
+.avatar {
+  border-radius: 30%;
+}
+
+.profile_cont {
+  border-radius: 15%;
+  margin: 5px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+  transition: transform ease 0.2s;
+  opacity: 0.8;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
